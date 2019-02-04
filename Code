@@ -1,0 +1,84 @@
+
+I don't know what "abstract" is however I do see that it is a class.
+
+Class = Shape
+
+// set variables for the Shape class
+
+public surfaceArea(): float
+
+public volume(): float
+
+public render(): float
+
+Class = Cuboid
+
+// set variables for the Cuboid class
+
+private width: float = 0.0;
+
+private height: float = 0.0;
+
+private depth: float = 0.0;
+
+// set getters and setters
+
+public getWidth(): float
+
+private setWidth(width: float)
+
+public getHeight(): float
+
+private setHeight(height: float)
+
+public getDepth(): float
+
+private setDepth(depth: float)
+
+// return the class as a usable variable
+
+public Cuboid(width: float, height: float, depth: float)
+
+Class = Cylinder
+
+// set variables for Cylinder class
+
+private radius: float = 0.0;
+
+private height: float = 0.0;
+
+// set getters and setters
+
+public getRadius(): float
+
+private setRadius(radius: float)
+
+public getHeight(): float
+
+private setHeight(height: float)
+
+// return the class as a usable variable
+
+public Cylinder(radius: float, height: float)
+
+Class = Sphere
+
+// set variables for the class
+
+private radius: float = 0.0;
+
+// set getters and setters
+
+public getRadius(): float
+
+private setRadius(radius: float)
+
+// return the class as a usable variable
+
+public Sphere(radius: float)
+
+// Make a class for testing
+
+Class = ShapesTest
+
+public main()
